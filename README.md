@@ -5,6 +5,12 @@ _s theme: https://underscores.me
 
 Bootstrap 4: https://v4-alpha.getbootstrap.com
 
+For mobile menu I have integrated the great Mmenu: http://mmenu.frebsite.nl
+
+I have included Font Awesome by default as I find I use this in most sites nowadays.
+
+Bootstrap & Font Awesome loaded via CDN as chances are user will have these already cached in their browser.
+
 ....................
 
 https://zava.design
