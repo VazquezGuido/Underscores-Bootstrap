@@ -159,7 +159,7 @@ if ( ! function_exists( 'underscores_bootstrap_woocommerce_wrapper_before' ) ) {
 	 */
 	function underscores_bootstrap_woocommerce_wrapper_before() {
 		?>
-		<div id="primary" class="content-area">
+		<div id="primary" class="content-area col-md-8">
 			<main id="main" class="site-main" role="main">
 		<?php
 	}
