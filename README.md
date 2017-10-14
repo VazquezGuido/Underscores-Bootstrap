@@ -13,4 +13,8 @@ Bootstrap & Font Awesome loaded via CDN as chances are user will have these alre
 
 ....................
 
+Also included is a plugin to use if using Gravity Forms, it adds relevant Bootstrap 4 code and styles to GF forms.
+
+....................
+
 https://zava.design
