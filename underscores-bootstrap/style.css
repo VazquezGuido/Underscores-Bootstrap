@@ -69,6 +69,9 @@ table {
 /*--------------------------------------------------------------
 # Forms --> Removed, use Bootstrap styles plus some custom styles
 --------------------------------------------------------------*/
+form {
+	margin-bottom: 1rem;
+}
 input[type="submit"], button {
 	cursor: pointer;
 }
@@ -328,9 +331,34 @@ input[type="submit"], button {
 .comment-content a {
 	word-wrap: break-word;
 }
-
 .bypostauthor {
 	display: block;
+}
+ol.comment-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 2em 0;
+}
+.comment-meta {
+	margin-bottom: 0.5em;
+}
+.comment-meta img.avatar {
+	float: left;
+	margin: 0.5em 0.5em 0.5em 0;
+}
+.comment-meta .says {
+	display: none;
+}
+.comment-meta .comment-metadata {
+	font-size: 80%;
+}
+.comment-body {
+	background-color: #f8f8f8;
+	padding: 1em;
+	margin-bottom: 0.5em;
+}
+.comment-content p:last-child {
+	margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
