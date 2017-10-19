@@ -23,11 +23,5 @@
 
 <?php wp_footer(); ?>
 
-<script type="text/javascript">
-jQuery(function() {
-	jQuery('#site-navigation').mmenu({}, {clone: true});
-});
-</script>
-
 </body>
 </html>
