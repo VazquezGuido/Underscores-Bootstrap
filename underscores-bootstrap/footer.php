@@ -16,8 +16,6 @@
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			&copy; <?php echo date("Y"); ?> <?php bloginfo( 'name' ); ?>. All rights reserved.
-			<span class="sep"> | </span>
-			<a href="<?php echo home_url();?>/privacy">Privacy policy</a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- .container -->
