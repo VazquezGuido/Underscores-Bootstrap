@@ -13,6 +13,9 @@ li.gfield {
 input[type="radio"], input[type="checkbox"] {
 	margin-right: 0.5rem;
 }
+.gform_button + .gform_ajax_spinner {
+	margin-left:15px;
+}
 @media (min-width: 420px) {
 	.name_first {
 		display: inline-block;
