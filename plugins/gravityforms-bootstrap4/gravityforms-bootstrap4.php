@@ -54,7 +54,14 @@ if( ! function_exists( 'gravityforms_bootstrap4' ) ) {
 	// Add submit button code for Bootstrap
 	add_filter("gform_submit_button", "form_submit_button", 10, 2);
 	function form_submit_button($button, $form){
-		return "<button class='button btn btn-dark' id='gform_submit_button_{$form["id"]}'>{$form['button']['text']}</button>";
+		if ($form['button']['type'] == 'text') {
+			$pattern = '/(class=)(\'|")([^\'"]+)/';
+			$replacement = '${1}${2}${3} btn btn-dark';
+			$newbutton = preg_replace($pattern, $replacement, $button);
+			if ( ! is_null($newbutton) ) {
+				return $newbutton;
+			}
+		}
 	}
 	
 	// Bootstrap the main validation message
